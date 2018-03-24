@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" width="20" height="20"><rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none"/>
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{clip-path:url(#SVGID_2_);fill:#FFFFFF;}
+</style>
+
+
+<g class="currentLayer"><title>Layer 1</title><polygon class="st0" points="0,6.69999885559082 0,10.30000114440918 0,20.100000381469727 4.700000762939453,20.100000381469727 4.700000762939453,9.500001907348633 4.700000762939453,6.69999885559082 " id="svg_1"/><g id="svg_2" class="">
+	<defs transform="translate(-27,-26.899999618530273) ">
+		<rect id="SVGID_1_" x="27" y="26.899999618530273" width="20.100000381469727" height="20.100000381469727"/>
+	</defs>
+	<clipPath id="SVGID_2_" transform="translate(-27,-26.899999618530273) ">
+		<use xlink:href="#SVGID_1_" style="overflow:visible;" id="svg_3"/>
+	</clipPath>
+	<path class="st1" d="M2.3000000000000007,3.8146972514141453e-7 c-1.3,0 -2.3,1 -2.3,2.3 c0,1.3 1,2.3 2.3,2.3 c1.3,0 2.3,-1 2.3,-2.3 C4.699999999999999,1.1000003814697266 3.6000000000000014,3.8146972514141453e-7 2.3000000000000007,3.8146972514141453e-7 " id="svg_4"/>
+	<path class="st1" d="M20,10.80000038146973 c-0.30000000000000004,-2.5 -1.5,-4.1 -4.9,-4.1 c-2,0 -3.4,0.8 -3.9,1.8 h-0.1 v-1.8 h-3.7 v2.6 V20.100000381469727 h3.9 v-6.6 c0,-1.7000000000000002 0.30000000000000004,-3.4 2.5,-3.4 c2.1,0 2.3,2 2.3,3.6 V20.100000381469727 h4 v-7.4 h0 C20.1,12.100000381469727 20,11.400000381469724 20,10.80000038146973 " id="svg_5"/>
+</g></g></svg>

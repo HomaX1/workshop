@@ -358,7 +358,40 @@ th {
   padding: 0; }
 
 /*modules*/
+@font-face {
+  font-family: 'Museo Sans Bold', sans-serif;
+  src: url("../../fonts/museo-sans-bold/museo-sans-bold.eot");
+  src: url("../../fonts/museo-sans-bold/museo-sans-bold.eot?iefix") format("eot"), url("../../fonts/museo-sans-bold/museo-sans-bold.woff") format("woff"), url("../../fonts/museo-sans-bold/museo-sans-bold.ttf") format("truetype"), url("../../fonts/museo-sans-bold/museo-sans-bold.svg#webfont") format("svg"); }
+
+@font-face {
+  font-family: 'Museo Slab Light', serif;
+  src: url("../../fonts/museo-slab-light/museo-slab-light.eot");
+  src: url("../../fonts/museo-slab-light/museo-slab-light.eot?iefix") format("eot"), url("../../fonts/museo-slab-light/museo-slab-light.woff") format("woff"), url("../../fonts/museo-slab-light/museo-slab-light.ttf") format("truetype"), url("../../fonts/museo-slab-light/museo-slab-light.svg#webfont") format("svg"); }
+
+@font-face {
+  font-family: 'Source Sans Pro Bold', sans-serif;
+  src: url("../../fonts/source-sans-pro-bold/source-sans-pro-bold.eot");
+  src: url("../../fonts/source-sans-pro-bold/source-sans-pro-bold.eot?iefix") format("eot"), url("../../fonts/source-sans-pro-bold/source-sans-pro-bold.woff") format("woff"), url("../../fonts/source-sans-pro-bold/source-sans-pro-bold.ttf") format("truetype"), url("../../fonts/source-sans-pro-bold/source-sans-pro-bold.svg#webfont") format("svg"); }
+
+@font-face {
+  font-family: 'Source Sans Pro Light', sans-serif;
+  src: url("../../fonts/source-sans-pro-light/source-sans-pro-light.eot");
+  src: url("../../fonts/source-sans-pro-light/source-sans-pro-light.eot?iefix") format("eot"), url("../../fonts/source-sans-pro-light/source-sans-pro-light.woff") format("woff"), url("../../fonts/source-sans-pro-light/source-sans-pro-light.ttf") format("truetype"), url("../../fonts/source-sans-pro-light/source-sans-pro-light.svg#webfont") format("svg"); }
+
+@font-face {
+  font-family: 'Source Sans Pro Light Italic', sans-serif;
+  src: url("../../fonts/source-sans-pro-light-italic/source-sans-pro-light-italic.eot");
+  src: url("../../fonts/source-sans-pro-light-italic/source-sans-pro-light-italic.eot?iefix") format("eot"), url("../../fonts/source-sans-pro-light-italic/source-sans-pro-light-italic.woff") format("woff"), url("../../fonts/source-sans-pro-light-italic/source-sans-pro-light-italic.ttf") format("truetype"), url("../../fonts/source-sans-pro-light-italic/source-sans-pro-light-italic.svg#webfont") format("svg"); }
+
+@font-face {
+  font-family: 'Source Sans Pro Regular', sans-serif;
+  src: url("../../fonts/source-sans-pro-regular/source-sans-pro-regular.eot");
+  src: url("../../fonts/source-sans-pro-regular/source-sans-pro-regular.eot?iefix") format("eot"), url("../../fonts/source-sans-pro-regular/source-sans-pro-regular.woff") format("woff"), url("../../fonts/source-sans-pro-regular/source-sans-pro-regular.ttf") format("truetype"), url("../../fonts/source-sans-pro-regular/source-sans-pro-regular.svg#webfont") format("svg"); }
+
+/*Colors*/
+/*Fonts*/
 body {
+  font-family: "Source Sans Pro Regular", sans-serif;
   color: #000; }
 
 a {
