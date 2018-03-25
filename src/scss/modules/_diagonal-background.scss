@@ -1,0 +1,10 @@
+.diagonal-background {
+  background-color: $white;
+  padding-bottom: 95px;
+
+  &__item {
+    height: 70px;
+    background: transparent url("../img/diagonal-pattern.jpg") repeat;
+
+  }
+}

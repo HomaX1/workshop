@@ -577,3 +577,10 @@ figure {
     margin: 0 20px; }
   .article-links-item:last-child::after {
     display: none; }
+
+.diagonal-background {
+  background-color: #fff;
+  padding-bottom: 95px; }
+  .diagonal-background__item {
+    height: 70px;
+    background: transparent url("../img/diagonal-pattern.jpg") repeat; }
