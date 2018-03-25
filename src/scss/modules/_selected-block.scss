@@ -1,0 +1,28 @@
+.selected-block {
+  margin-bottom: 90px;
+
+  &-item {
+    background-color: $alabaster;
+    padding: 20px 25px;
+    margin-right: 20px;
+
+    &__text {
+      text-transform: uppercase;
+      font: 700 20px $sourceSansPro;
+      color: $thunder;
+      margin-right: 50px;
+    }
+
+    &__icon {
+      display: inline-block;
+      width: 10px;
+      height: 11px;
+      background: url("../img/sprite.png") -8px -98px no-repeat;
+      cursor: pointer;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

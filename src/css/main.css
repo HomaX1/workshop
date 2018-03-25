@@ -634,3 +634,23 @@ figure {
     margin-right: 20px; }
   .filter-select:last-child {
     margin-right: 0; }
+
+.selected-block {
+  margin-bottom: 90px; }
+  .selected-block-item {
+    background-color: #f7f7f7;
+    padding: 20px 25px;
+    margin-right: 20px; }
+    .selected-block-item__text {
+      text-transform: uppercase;
+      font: 700 20px "Source Sans Pro", sans-serif;
+      color: #343334;
+      margin-right: 50px; }
+    .selected-block-item__icon {
+      display: inline-block;
+      width: 10px;
+      height: 11px;
+      background: url("../img/sprite.png") -8px -98px no-repeat;
+      cursor: pointer; }
+    .selected-block-item:last-child {
+      margin-right: 0; }
