@@ -1,8 +1,16 @@
 body {
-  font-family: $sourceSansProRegular;
+  font-family: $sourceSansPro, sans-serif;
+  font-weight: 400;
   color: $black;
 }
 
 a {
   text-decoration: none;
+}
+
+.container {
+  width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
 }
