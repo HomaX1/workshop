@@ -1,0 +1,50 @@
+.container_direction {
+  flex-direction: column;
+}
+
+.heading-block {
+  background-color: $white;
+}
+
+.breadcrumbs {
+  font: 16px $sourceSansPro;
+  font-weight: 300;
+  margin: 35px 0 115px;
+
+  &-item {
+    display: inline-block;
+    color: $thunder;
+
+    &__link {
+      color: $thunder;
+    }
+
+    &::after {
+      content: ">";
+      display: inline-block;
+      margin: 0 5px;
+    }
+
+    &:last-child::after {
+      display: none;
+    }
+  }
+}
+
+.heading {
+  justify-content: center;
+  align-self: center;
+  color: $thunder;
+  margin-bottom: 140px;
+
+  &__title {
+    font: 70px $museoSlabLight;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  &__text {
+    font: 20px $sourceSansPro;
+    font-weight: 300;
+  }
+}

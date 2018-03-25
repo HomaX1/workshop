@@ -1,7 +1,12 @@
 body {
   font-family: $sourceSansPro, sans-serif;
   font-weight: 400;
-  color: $black;
+  color: $thunder;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -11,6 +16,5 @@ a {
 .container {
   width: 1280px;
   display: flex;
-  justify-content: space-between;
   margin: 0 auto;
 }

@@ -374,28 +374,14 @@ th {
   src: url("../fonts/museo-slab-light/museo-slab-light.eot");
   src: url("../fonts/museo-slab-light/museo-slab-light.eot?iefix") format("eot"), url("../fonts/museo-slab-light/museo-slab-light.woff") format("woff"), url("../fonts/museo-slab-light/museo-slab-light.ttf") format("truetype"), url("../fonts/museo-slab-light/museo-slab-light.svg#webfont") format("svg"); }
 
-/*@font-face {
-  font-family: "MuseoSansBlack";
-  src: url("../fonts/MuseoSans/MuseoSansBlack/MuseoSansBlack.eot");
-  src: url("../fonts/MuseoSans/MuseoSansBlack/MuseoSansBlack.eot?#iefix")format("embedded-opentype"),
-  url("../fonts/MuseoSans/MuseoSansBlack/MuseoSansBlack.woff") format("woff"),
-  url("../fonts/MuseoSans/MuseoSansBlack/MuseoSansBlack.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: 'MuseoSlab-300';
-  src: url('../fonts/MuseoSlab-300/MuseoSlab-300.woff') format('woff'),
-  url('../fonts/MuseoSlab-300/MuseoSlab-300.ttf') format('truetype'),
-  url('../fonts/MuseoSlab-300/MuseoSlab-300.svg#MuseoSlab-300') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}*/
 body {
   font-family: "Source Sans Pro", sans-serif, sans-serif;
   font-weight: 400;
-  color: #000; }
+  color: #343334; }
+
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0; }
 
 a {
   text-decoration: none; }
@@ -405,10 +391,12 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 0 auto; }
+
+.container_justify-content {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
-  margin: 0 auto; }
+  justify-content: space-between; }
 
 .header {
   background-color: #343334; }
@@ -498,3 +486,44 @@ a {
     background: url("../img/sprite.png") -7px -61px no-repeat; }
   .menu:hover {
     opacity: 0.7; }
+
+.container_direction {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.heading-block {
+  background-color: #fff; }
+
+.breadcrumbs {
+  font: 16px "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  margin: 35px 0 115px; }
+  .breadcrumbs-item {
+    display: inline-block;
+    color: #343334; }
+    .breadcrumbs-item__link {
+      color: #343334; }
+    .breadcrumbs-item::after {
+      content: ">";
+      display: inline-block;
+      margin: 0 5px; }
+    .breadcrumbs-item:last-child::after {
+      display: none; }
+
+.heading {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  color: #343334;
+  margin-bottom: 140px; }
+  .heading__title {
+    font: 70px "Museo Slab Light", serif;
+    text-align: center;
+    margin-bottom: 40px; }
+  .heading__text {
+    font: 20px "Source Sans Pro", sans-serif;
+    font-weight: 300; }
