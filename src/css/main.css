@@ -745,7 +745,8 @@ figure {
 
 .offices {
   background-color: #fff;
-  position: relative; }
+  position: relative;
+  margin-bottom: 230px; }
   .offices-navigation {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -781,6 +782,7 @@ figure {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 1280px;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
@@ -836,9 +838,8 @@ figure {
 .offices-diagonal-background {
   width: 100%;
   position: absolute;
-  bottom: -230px;
-  padding-bottom: 0;
-  margin-bottom: 100px; }
+  bottom: -130px;
+  padding-bottom: 0; }
 
 .diagonal-background__item_height {
   height: 260px; }

@@ -1,6 +1,7 @@
 .offices {
   background-color: $white;
   position: relative;
+  margin-bottom: 230px;
 
   &-navigation {
     justify-content: center;
@@ -39,6 +40,7 @@
 
 .carousel {
   display: flex;
+  width: 1280px;
   justify-content: space-between;
   position: relative;
 
@@ -97,9 +99,11 @@
 .offices-diagonal-background {
   width: 100%;
   position: absolute;
-  bottom: -230px;
+  //bottom: -230px;
+  bottom: -130px;
   padding-bottom: 0;
-  margin-bottom: 100px;
+  //padding-bottom: 0;
+  //margin-bottom: 100px;
 }
 
 .diagonal-background {
