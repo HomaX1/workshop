@@ -1,0 +1,62 @@
+.container {
+  &_display {
+    display: block;
+  }
+}
+
+.contacts-block {
+  text-transform: uppercase;
+
+  &__link {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font: 700 16px $sourceSansPro;
+    color: $sinbad;
+    background-color: transparent;
+    border: none;
+    margin: 60px auto 118px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__title {
+    text-align: center;
+    font: 700 38px $museoSansBlack;
+    color: $thunder;
+    margin-bottom: 90px;
+  }
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 115px;
+  border-bottom: 1px solid $alto;
+
+  &-item {
+    text-align: center;
+    font: 700 20px $sourceSansPro;
+
+    &__text {
+      color: $sinbad;
+      margin-bottom: 3px;
+    }
+
+    &__link, &__tel {
+      display: block;
+      color: $thunder;
+      cursor: pointer;
+    }
+
+    &__link {
+      margin-bottom: 7px;
+    }
+
+    &__tel {
+      font: 300 20px $sourceSansPro;
+    }
+  }
+}

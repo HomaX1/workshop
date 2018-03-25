@@ -496,7 +496,8 @@ figure {
   -webkit-transition: opacity 0.2s;
   transition: opacity 0.2s; }
   .menu__text {
-    font: 16px "Museo Sans Black", sans-serif;
+    text-transform: uppercase;
+    font: 700 16px "Museo Sans Black", sans-serif;
     margin-right: 10px; }
   .menu__icon {
     display: inline-block;
@@ -695,3 +696,48 @@ figure {
   background-color: #d35d47;
   position: absolute;
   bottom: 0; }
+
+.container_display {
+  display: block; }
+
+.contacts-block {
+  text-transform: uppercase; }
+  .contacts-block__link {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font: 700 16px "Source Sans Pro", sans-serif;
+    color: #94ccd6;
+    background-color: transparent;
+    border: none;
+    margin: 60px auto 118px; }
+    .contacts-block__link:focus {
+      outline: none; }
+  .contacts-block__title {
+    text-align: center;
+    font: 700 38px "Museo Sans Black", sans-serif;
+    color: #343334;
+    margin-bottom: 90px; }
+
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  padding-bottom: 115px;
+  border-bottom: 1px solid #d6d6d6; }
+  .contacts-item {
+    text-align: center;
+    font: 700 20px "Source Sans Pro", sans-serif; }
+    .contacts-item__text {
+      color: #94ccd6;
+      margin-bottom: 3px; }
+    .contacts-item__link, .contacts-item__tel {
+      display: block;
+      color: #343334;
+      cursor: pointer; }
+    .contacts-item__link {
+      margin-bottom: 7px; }
+    .contacts-item__tel {
+      font: 300 20px "Source Sans Pro", sans-serif; }
