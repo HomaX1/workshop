@@ -33,8 +33,9 @@
 .contacts {
   display: flex;
   justify-content: space-around;
-  padding-bottom: 115px;
   border-bottom: 1px solid $alto;
+  padding-bottom: 115px;
+  margin-bottom: 125px;
 
   &-item {
     text-align: center;

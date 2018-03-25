@@ -358,8 +358,6 @@ th {
   padding: 0; }
 
 /*modules*/
-/*Colors*/
-/*Fonts*/
 @font-face {
   font-family: 'Museo Sans Black', sans-serif;
   font-style: normal;
@@ -374,6 +372,8 @@ th {
   src: url("../fonts/museo-slab-light/museo-slab-light.eot");
   src: url("../fonts/museo-slab-light/museo-slab-light.eot?iefix") format("eot"), url("../fonts/museo-slab-light/museo-slab-light.woff") format("woff"), url("../fonts/museo-slab-light/museo-slab-light.ttf") format("truetype"), url("../fonts/museo-slab-light/museo-slab-light.svg#webfont") format("svg"); }
 
+/*Colors*/
+/*Fonts*/
 body {
   font-family: "Source Sans Pro", sans-serif, sans-serif;
   font-weight: 400;
@@ -725,8 +725,9 @@ figure {
   display: flex;
   -ms-flex-pack: distribute;
   justify-content: space-around;
+  border-bottom: 1px solid #d6d6d6;
   padding-bottom: 115px;
-  border-bottom: 1px solid #d6d6d6; }
+  margin-bottom: 125px; }
   .contacts-item {
     text-align: center;
     font: 700 20px "Source Sans Pro", sans-serif; }
