@@ -396,11 +396,22 @@ figure {
   display: -ms-flexbox;
   display: flex;
   margin: 0 auto; }
-
-.container_justify-content {
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between; }
+  .container_direction {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .container_justify-content {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  .container_center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .container_wrap {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
 
 .header {
   background-color: #343334; }
@@ -490,12 +501,6 @@ figure {
     background: url("../img/sprite.png") -7px -61px no-repeat; }
   .menu:hover {
     opacity: 0.7; }
-
-.container_direction {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column; }
 
 .heading-block {
   background-color: #fff; }
@@ -598,11 +603,6 @@ figure {
     font-weight: 700;
     margin-right: 40px; }
 
-.container_center {
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center; }
-
 .filters {
   margin: 58px 0; }
 
@@ -640,7 +640,8 @@ figure {
   .selected-block-item {
     background-color: #f7f7f7;
     padding: 20px 25px;
-    margin-right: 20px; }
+    margin-right: 20px;
+    margin-bottom: 20px; }
     .selected-block-item__text {
       text-transform: uppercase;
       font: 700 20px "Source Sans Pro", sans-serif;

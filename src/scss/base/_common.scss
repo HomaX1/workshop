@@ -22,4 +22,21 @@ figure {
   width: 1280px;
   display: flex;
   margin: 0 auto;
+
+  &_direction {
+    flex-direction: column;
+  }
+
+  &_justify-content {
+    justify-content: space-between;
+  }
+
+  &_center {
+    justify-content: center;
+  }
+
+  &_wrap {
+    flex-wrap: wrap;
+  }
 }
+
