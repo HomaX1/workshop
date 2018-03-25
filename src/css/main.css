@@ -710,7 +710,13 @@ figure {
     color: #94ccd6;
     background-color: transparent;
     border: none;
-    margin: 60px auto 118px; }
+    margin: 60px auto 118px;
+    -webkit-transition: -webkit-text-decoration 0.2s;
+    transition: -webkit-text-decoration 0.2s;
+    transition: text-decoration 0.2s;
+    transition: text-decoration 0.2s, -webkit-text-decoration 0.2s; }
+    .contacts-block__link:hover {
+      text-decoration: none; }
     .contacts-block__link:focus {
       outline: none; }
   .contacts-block__title {
@@ -737,7 +743,13 @@ figure {
     .contacts-item__link, .contacts-item__tel {
       display: block;
       color: #343334;
+      -webkit-transition: -webkit-text-decoration 0.1s;
+      transition: -webkit-text-decoration 0.1s;
+      transition: text-decoration 0.1s;
+      transition: text-decoration 0.1s, -webkit-text-decoration 0.1s;
       cursor: pointer; }
+      .contacts-item__link:hover, .contacts-item__tel:hover {
+        text-decoration: underline; }
     .contacts-item__link {
       margin-bottom: 7px; }
     .contacts-item__tel {
@@ -843,3 +855,46 @@ figure {
 
 .diagonal-background__item_height {
   height: 260px; }
+
+.footer {
+  background-color: #343233; }
+  .footer-icons {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+    .footer-icons-item {
+      margin-right: 30px;
+      cursor: pointer; }
+      .footer-icons-item__icon {
+        display: inline-block;
+        background-repeat: no-repeat;
+        -webkit-transition: opacity 0.2s;
+        transition: opacity 0.2s; }
+        .footer-icons-item__icon_twitter {
+          width: 20px;
+          height: 16px;
+          background-image: url("../img/twitter.svg"); }
+        .footer-icons-item__icon_facebook {
+          width: 9px;
+          height: 20px;
+          background-image: url("../img/facebook.svg"); }
+        .footer-icons-item__icon_linkedin {
+          width: 20px;
+          height: 20px;
+          background-image: url("../img/linkedin.svg"); }
+        .footer-icons-item__icon_google {
+          width: 26px;
+          height: 16px;
+          background-image: url("../img/google.svg"); }
+      .footer-icons-item:last-child {
+        margin-right: 0; }
+      .footer-icons-item:hover .footer-icons-item__icon {
+        opacity: 0.7; }
+  .footer-navigation {
+    margin-right: 110px; }
+    .footer-navigation-item::after {
+      background-color: #fff; }
+  .footer__text {
+    -ms-flex-item-align: center;
+    align-self: center;
+    font: 300 16px "Source Sans Pro", sans-serif;
+    color: #fff; }

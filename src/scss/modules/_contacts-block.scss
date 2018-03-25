@@ -16,6 +16,11 @@
     background-color: transparent;
     border: none;
     margin: 60px auto 118px;
+    transition: text-decoration 0.2s;
+
+    &:hover {
+      text-decoration: none;
+    }
 
     &:focus {
       outline: none;
@@ -49,7 +54,12 @@
     &__link, &__tel {
       display: block;
       color: $thunder;
+      transition: text-decoration 0.1s;
       cursor: pointer;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
 
     &__link {

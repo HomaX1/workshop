@@ -1,0 +1,65 @@
+.footer {
+  background-color: $mineShaft;
+
+  &-icons {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    &-item {
+      margin-right: 30px;
+      cursor: pointer;
+      
+      &__icon {
+        display: inline-block;
+        background-repeat: no-repeat;
+        transition: opacity 0.2s;
+
+        &_twitter {
+          width: 20px;
+          height: 16px;
+          background-image: url("../img/twitter.svg");
+        }
+
+        &_facebook {
+          width: 9px;
+          height: 20px;
+          background-image: url("../img/facebook.svg");
+        }
+
+        &_linkedin {
+          width: 20px;
+          height: 20px;
+          background-image: url("../img/linkedin.svg");
+        }
+
+        &_google {
+          width: 26px;
+          height: 16px;
+          background-image: url("../img/google.svg");
+        }
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &:hover &__icon{
+        opacity: 0.7;
+      }
+    }
+  }
+
+  &-navigation {
+    margin-right: 110px;
+
+    &-item::after {
+      background-color: $white;
+    }
+  }
+
+  &__text {
+    align-self: center;
+    font: 300 16px $sourceSansPro;
+    color: $white;
+  }
+}
