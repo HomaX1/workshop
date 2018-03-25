@@ -1,0 +1,50 @@
+.filters-block {
+  background-color: $alabaster;
+  color: $thunder;
+
+  &__text {
+    text-transform: uppercase;
+    align-self: center;
+    font: 26px $sourceSansPro;
+    font-weight: 700;
+    margin-right: 40px;
+  }
+}
+
+.container_center {
+  justify-content: center;
+}
+
+.filters {
+  margin: 58px 0;
+}
+
+.filter-select {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 365px;
+  height: 55px;
+  border: 1px solid $silver;
+  background-color: $white;
+  margin-right: 23px;
+  cursor: pointer;
+
+  &__text {
+    text-transform: capitalize;
+    font: 300 italic 20px $sourceSansPro;
+    color: $thunder;
+    margin-left: 20px;
+  }
+
+  &__icon {
+    width: 23px;
+    height: 16px;
+    background: url("../img/sprite.png") 0 -77px no-repeat;
+    margin-right: 20px;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
