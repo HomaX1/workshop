@@ -63,7 +63,7 @@ figure {
   }
 }
 
-@media (max-width: $desktopMin - 1) and (min-width: $tabletMin) {
+@media (max-width: $desktopMin - 1) and (min-width: $tabletLMin) {
 
   .container {
     width: 748px;

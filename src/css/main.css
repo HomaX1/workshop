@@ -430,7 +430,7 @@ figure {
     -ms-flex-pack: center;
     justify-content: center; } }
 
-@media (max-width: 1023px) and (min-width: 768px) {
+@media (max-width: 1023px) and (min-width: 992px) {
   .container {
     width: 748px; } }
 
@@ -528,7 +528,7 @@ figure {
   .header__logo, .navigation, .icons {
     margin-right: 0; } }
 
-@media (max-width: 1023px) and (min-width: 768px) {
+@media (max-width: 1023px) and (min-width: 992px) {
   .navigation-item__link {
     font-size: 12px; }
   .navigation-item::after {
@@ -680,7 +680,7 @@ figure {
   .filter-select:last-child {
     margin-right: 0; }
 
-@media (max-width: 1023px) and (min-width: 768px) {
+@media (max-width: 1023px) and (min-width: 751px) {
   .filters {
     width: 367px; }
   .filter-select {
@@ -1021,6 +1021,6 @@ figure {
     font: 300 16px "Source Sans Pro", sans-serif;
     color: #fff; }
 
-@media (max-width: 1023px) and (min-width: 768px) {
+@media (max-width: 1023px) and (min-width: 992px) {
   .footer-navigation {
     margin-right: 0; } }
