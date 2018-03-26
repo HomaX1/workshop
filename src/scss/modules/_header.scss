@@ -163,3 +163,14 @@
     }
   }
 }
+
+@media (max-width: $mobileL - 1) {
+
+  .icons {
+    margin-right: 20px;
+
+    &__item-glob {
+      margin-right: 10px;
+    }
+  }
+}

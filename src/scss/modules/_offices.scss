@@ -190,3 +190,22 @@
   }
 }
 
+@media (max-width: $mobileL - 1) {
+
+  .carousel-wrap {
+    width: 270px;
+
+    &::before {
+      left: 3px;
+    }
+
+    &::after {
+      right: 3px;
+    }
+  }
+
+  .carousel-figure {
+    width: 270px;
+    height: 250px;
+  }
+}

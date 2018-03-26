@@ -98,3 +98,14 @@
     }
   }
 }
+
+@media (max-width: $mobileL - 1) {
+
+  .contacts {
+    margin-bottom: 50px;
+
+    &-item {
+      width: 100%;
+    }
+  }
+}

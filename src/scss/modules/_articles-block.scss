@@ -116,3 +116,10 @@
     }
   }
 }
+
+@media (max-width: $mobileL - 1) {
+
+  .article-figure {
+    height: 250px;
+  }
+}

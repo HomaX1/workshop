@@ -102,3 +102,13 @@
     }
   }
 }
+
+@media (max-width: $mobileL - 1) {
+
+  .navigation-item {
+
+    &::after {
+      margin: 0 10px;
+    }
+  }
+}

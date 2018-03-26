@@ -438,6 +438,10 @@ figure {
   .container {
     max-width: 640px; } }
 
+@media (max-width: 749px) {
+  .container {
+    max-width: 300px; } }
+
 .header {
   background-color: #343334; }
   .header__logo {
@@ -551,6 +555,12 @@ figure {
     margin-right: 55px; }
     .icons__item-glob {
       margin-right: 45px; } }
+
+@media (max-width: 749px) {
+  .icons {
+    margin-right: 20px; }
+    .icons__item-glob {
+      margin-right: 10px; } }
 
 .heading-block {
   background-color: #fff; }
@@ -701,6 +711,10 @@ figure {
     .article__date {
       margin-bottom: 45px; } }
 
+@media (max-width: 749px) {
+  .article-figure {
+    height: 250px; } }
+
 .diagonal-background {
   background-color: #fff;
   padding-bottom: 95px; }
@@ -833,6 +847,10 @@ figure {
 @media (max-width: 991px) {
   .filter-mobile {
     display: block; } }
+
+@media (max-width: 749px) {
+  .filter-mobile-item__text {
+    font-size: 18px; } }
 
 .projects-block {
   background-color: transparent;
@@ -967,6 +985,12 @@ figure {
     .contacts-item {
       width: 49%;
       margin-bottom: 75px; } }
+
+@media (max-width: 749px) {
+  .contacts {
+    margin-bottom: 50px; }
+    .contacts-item {
+      width: 100%; } }
 
 .offices {
   background-color: #fff;
@@ -1108,6 +1132,17 @@ figure {
   .offices {
     margin-bottom: 170px; } }
 
+@media (max-width: 749px) {
+  .carousel-wrap {
+    width: 270px; }
+    .carousel-wrap::before {
+      left: 3px; }
+    .carousel-wrap::after {
+      right: 3px; }
+  .carousel-figure {
+    width: 270px;
+    height: 250px; } }
+
 .footer {
   background-color: #343233; }
   .footer-icons {
@@ -1176,3 +1211,7 @@ figure {
     margin: 40px 0; }
   .footer__text {
     margin-bottom: 50px; } }
+
+@media (max-width: 749px) {
+  .navigation-item::after {
+    margin: 0 10px; } }

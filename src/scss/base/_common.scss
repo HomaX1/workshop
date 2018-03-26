@@ -77,3 +77,10 @@ figure {
   }
 }
 
+@media (max-width: $mobileL - 1) {
+
+  .container {
+    max-width: 300px;
+  }
+}
+

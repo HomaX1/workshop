@@ -37,3 +37,13 @@
     display: block;
   }
 }
+
+@media (max-width: $mobileL - 1) {
+
+  .filter-mobile {
+
+    &-item__text {
+      font-size: 18px;
+    }
+  }
+}
