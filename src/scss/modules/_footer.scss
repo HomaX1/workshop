@@ -63,3 +63,13 @@
     color: $white;
   }
 }
+
+@media (max-width: $desktopMin - 1) and (min-width: $tabletMin) {
+
+  .footer {
+
+    &-navigation {
+      margin-right: 0;
+    }
+  }
+}

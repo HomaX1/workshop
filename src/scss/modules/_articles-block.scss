@@ -63,7 +63,7 @@
   }
 }
 
-@media (max-width: $desktopL - 1) and (min-width: $desktopMin) {
+@media (max-width: $desktopL - 1) {
 
   .article {
     width: 49%;
@@ -73,5 +73,14 @@
       height: 400px;
     }
   }
+}
 
+@media (max-width: $desktopMin - 1) {
+
+  .article {
+
+    &-figure {
+      height: 275px;
+    }
+  }
 }

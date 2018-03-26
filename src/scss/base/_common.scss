@@ -45,14 +45,28 @@ figure {
   z-index: 2;
 }
 
+@media (max-width: $desktopL - 1){
+
+  .container {
+    padding: 0 10px;
+  }
+}
+
 @media (max-width: $desktopL - 1) and (min-width: $desktopMin) {
+
   .container {
     width: 1004px;
-    padding: 0 10px;
   }
 
   .position {
     justify-content: center;
+  }
+}
+
+@media (max-width: $desktopMin - 1) and (min-width: $tabletMin) {
+
+  .container {
+    width: 748px;
   }
 }
 

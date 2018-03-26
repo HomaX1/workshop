@@ -48,17 +48,9 @@
   bottom: 0;
 }
 
-@media (max-width: $desktopL - 1) and (min-width: $desktopMin) {
+@media (max-width: $desktopL - 1) {
 
   .project {
-
-    &:nth-child(3n) {
-      margin-right: 26.5px;
-    }
-
-    &:nth-child(2n) {
-      margin-right: 0;
-    }
 
     &:nth-last-child(-n+3) &-item__text,
     &:nth-last-child(-n+3) &__text {
@@ -70,6 +62,30 @@
       color: $white;
     }
   }
+}
 
+@media (max-width: $desktopL - 1) and (min-width: $desktopMin) {
+
+  .project {
+
+    &:nth-child(3n) {
+      margin-right: 26.5px;
+    }
+
+    &:nth-child(2n) {
+      margin-right: 0;
+    }
+  }
+}
+
+@media (max-width: $desktopMin - 1) {
+
+  .projects-block .container {
+    justify-content: center;
+  }
+
+  .project {
+    margin-right: 0;
+  }
 }
 

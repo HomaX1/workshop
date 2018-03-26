@@ -135,7 +135,6 @@
       right: 118px;
     }
   }
-
 }
 
 @media (max-width: $desktopL - 1) and (min-width: $desktopMin) {
@@ -150,6 +149,20 @@
       right: 10px;
     }
   }
+}
 
+@media (max-width: $desktopMin - 1){
+
+  .carousel-wrap {
+    width: 630px;
+
+    &::before {
+      left: 33px;
+    }
+
+    &::after {
+      right: 33px;
+    }
+  }
 }
 

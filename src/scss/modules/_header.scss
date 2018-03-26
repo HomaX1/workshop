@@ -108,10 +108,33 @@
   }
 }
 
-@media (max-width: $desktopL - 1) and (min-width: $desktopMin) {
+@media (max-width: $desktopL - 1) {
 
   .header__logo, .navigation, .icons {
     margin-right: 0;
   }
+}
 
+@media (max-width: $desktopMin - 1) and (min-width: $tabletMin) {
+
+  .navigation-item {
+
+    &__link {
+      font-size: 12px;
+    }
+
+    &::after {
+      margin: 0 5px;
+    }
+  }
+
+  .icons {
+
+    &__item {
+
+      &-glob {
+        margin-right: 10px;
+      }
+    }
+  }
 }
