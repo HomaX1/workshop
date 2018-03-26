@@ -1055,17 +1055,8 @@ figure {
   justify-content: space-between;
   position: relative; }
   .carousel-figure {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     width: 305px;
     height: 314px;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
     position: relative; }
     .carousel-figure__img {
       width: 100%;
@@ -1080,6 +1071,11 @@ figure {
       border: none;
       border-radius: 10px;
       position: absolute;
+      top: 50%;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: -27.5px auto 0;
       z-index: 2;
       cursor: pointer;
       -webkit-transition: background-color 0.1s;
@@ -1135,6 +1131,8 @@ figure {
 @media (max-width: 749px) {
   .carousel-wrap {
     width: 270px; }
+    .carousel-wrap::before, .carousel-wrap::after {
+      bottom: 135px; }
     .carousel-wrap::before {
       left: 3px; }
     .carousel-wrap::after {
