@@ -57,7 +57,7 @@
     vertical-align: middle;
     margin: 0 20px;
   }
-  
+
   &:last-child::after {
     display: none;
   }
@@ -81,6 +81,38 @@
 
     &-figure {
       height: 275px;
+    }
+  }
+}
+
+@media (max-width: $tabletLMin - 1) {
+
+  .articles-block .container {
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 108px;
+  }
+
+  .article {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 93px;
+
+    &-figure {
+      height: 470px;
+
+      &__img {
+        margin-bottom: 35px;
+      }
+    }
+
+    &__text {
+      margin-top: 15px;
+      margin-bottom: 10px;
+    }
+
+    &__date {
+      margin-bottom: 45px;
     }
   }
 }

@@ -1,0 +1,27 @@
+.section {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: $thunder;
+
+  &__text {
+    text-transform: uppercase;
+    font: 700 21px $sourceSansPro;
+    color: $white;
+    margin: 37px 17px 37px 0;
+  }
+
+  &__icon {
+    display: inline-block;
+    width: 23px;
+    height: 16px;
+    background: url("../img/sprite.png") 0 -142px no-repeat;
+  }
+}
+
+@media (max-width: $tabletLMin - 1) {
+  
+  .section {
+    display: flex;
+  }
+}

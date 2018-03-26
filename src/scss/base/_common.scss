@@ -70,3 +70,10 @@ figure {
   }
 }
 
+@media (max-width: $tabletLMin - 1) {
+
+  .container {
+    max-width: 640px;
+  }
+}
+

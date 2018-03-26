@@ -44,3 +44,14 @@
     font-weight: 300;
   }
 }
+
+@media (max-width: $tabletLMin - 1) {
+
+  .breadcrumbs {
+    margin: 50px 0 85px;
+  }
+
+  .heading {
+    margin-bottom: 100px;
+  }
+}

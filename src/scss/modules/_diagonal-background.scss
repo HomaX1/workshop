@@ -8,3 +8,10 @@
 
   }
 }
+
+@media (max-width: $tabletLMin - 1) {
+
+  .diagonal-background {
+    display: none;
+  }
+}

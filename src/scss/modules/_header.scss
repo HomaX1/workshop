@@ -138,3 +138,28 @@
     }
   }
 }
+
+@media (max-width: $tabletLMin - 1) {
+
+  .header {
+
+    &__logo {
+      flex-grow: 1;
+    }
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .icons {
+    margin-right: 55px;
+
+    &__item {
+
+      &-glob {
+        margin-right: 45px;
+      }
+    }
+  }
+}

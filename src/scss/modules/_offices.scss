@@ -151,7 +151,7 @@
   }
 }
 
-@media (max-width: $desktopMin - 1){
+@media (max-width: $desktopMin - 1) {
 
   .carousel-wrap {
     width: 630px;
@@ -163,6 +163,30 @@
     &::after {
       right: 33px;
     }
+  }
+}
+
+@media (max-width: $tabletLMin - 1) {
+
+  .carousel-wrap {
+
+    &::before {
+      left: -21px;
+    }
+
+    &::after {
+      right: -21px;
+    }
+  }
+}
+
+@media (max-width: $tabletLMin - 1) {
+  .offices .diagonal-background {
+    display: block;
+  }
+
+  .offices {
+    margin-bottom: 170px;
   }
 }
 

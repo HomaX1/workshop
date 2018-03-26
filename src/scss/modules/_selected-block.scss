@@ -34,3 +34,10 @@
     justify-content: center;
   }
 }
+
+@media (max-width: $tabletLMin - 1) {
+
+  .selected-block {
+    display: none;
+  }
+}

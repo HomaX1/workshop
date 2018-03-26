@@ -1,0 +1,39 @@
+.filter-mobile {
+  display: none;
+  background-color: $white;
+  margin: 105px 0 60px;
+
+  &-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $alabaster;
+    padding: 40px 0;
+    margin-bottom: 50px;
+
+    &__text {
+      text-transform: uppercase;
+      font: 700 26px $sourceSansPro;
+      color: $thunder;
+      margin-right: 25px;
+    }
+
+    &__icon {
+      display: inline-block;
+      width: 23px;
+      height: 16px;
+      background: url("../img/sprite.png") 0 -77px no-repeat;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (max-width: $tabletLMin - 1) {
+
+  .filter-mobile {
+    display: block;
+  }
+}
