@@ -3,6 +3,10 @@
   color: $thunder;
   margin-bottom: 45px;
 
+  & .container {
+    align-items: center;
+  }
+
   &__text {
     text-transform: uppercase;
     align-self: center;
@@ -35,6 +39,7 @@
   }
 
   &__icon {
+    display: inline-block;
     width: 23px;
     height: 16px;
     background: url("../img/sprite.png") 0 -77px no-repeat;

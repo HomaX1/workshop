@@ -4,6 +4,9 @@
 }
 
 .project {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
   width: 409px;
   margin-right: 26.5px;
   margin-bottom: 100px;
@@ -16,6 +19,7 @@
   }
 
   &-item {
+    width: 409px;
     margin-bottom: 28px;
 
     &__img {
@@ -86,6 +90,13 @@
 
   .project {
     margin-right: 0;
+  }
+}
+
+@media (max-width: $mobileL - 1) {
+
+  .project {
+    width: 300px;
   }
 }
 

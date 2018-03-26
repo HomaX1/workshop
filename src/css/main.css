@@ -730,6 +730,10 @@ figure {
   background-color: #f7f7f7;
   color: #343334;
   margin-bottom: 45px; }
+  .filters-block .container {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
   .filters-block__text {
     text-transform: uppercase;
     -ms-flex-item-align: center;
@@ -763,6 +767,7 @@ figure {
     color: #343334;
     margin-left: 20px; }
   .filter-select__icon {
+    display: inline-block;
     width: 23px;
     height: 16px;
     background: url("../img/sprite.png") 0 -77px no-repeat;
@@ -857,6 +862,16 @@ figure {
   position: relative; }
 
 .project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
   width: 409px;
   margin-right: 26.5px;
   margin-bottom: 100px;
@@ -866,6 +881,7 @@ figure {
     font: 400 20px "Source Sans Pro", sans-serif;
     color: #343334; }
   .project-item {
+    width: 409px;
     margin-bottom: 28px; }
     .project-item__img {
       width: 100%;
@@ -909,6 +925,10 @@ figure {
     justify-content: center; }
   .project {
     margin-right: 0; } }
+
+@media (max-width: 749px) {
+  .project {
+    width: 300px; } }
 
 .container_display {
   display: block; }
