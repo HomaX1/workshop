@@ -62,3 +62,16 @@
     display: none;
   }
 }
+
+@media (max-width: $desktopL - 1) and (min-width: $desktopMin) {
+
+  .article {
+    width: 49%;
+
+    &-figure {
+      width: 100%;
+      height: 400px;
+    }
+  }
+
+}

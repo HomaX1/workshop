@@ -19,7 +19,7 @@
 }
 
 .navigation-item {
-  
+
   &__link {
     text-transform: uppercase;
     font: 16px $sourceSansPro;
@@ -42,7 +42,7 @@
     vertical-align: middle;
     margin: 0 18px;
   }
-  
+
   &:last-child::after {
     display: none;
   }
@@ -106,4 +106,12 @@
   &:hover {
     opacity: 0.7;
   }
+}
+
+@media (max-width: $desktopL - 1) and (min-width: $desktopMin) {
+
+  .header__logo, .navigation, .icons {
+    margin-right: 0;
+  }
+
 }

@@ -27,3 +27,11 @@
     }
   }
 }
+
+@media (max-width: $desktopL - 1) {
+
+  .selected-block .container {
+    justify-content: center;
+  }
+
+}

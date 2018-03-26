@@ -5,7 +5,7 @@
 
 .project {
   width: 409px;
-  margin-right: 25px;
+  margin-right: 26.5px;
   margin-bottom: 100px;
   overflow: hidden;
 
@@ -46,5 +46,30 @@
   background-color: $redDamask;
   position: absolute;
   bottom: 0;
+}
+
+@media (max-width: $desktopL - 1) and (min-width: $desktopMin) {
+
+  .project {
+
+    &:nth-child(3n) {
+      margin-right: 26.5px;
+    }
+
+    &:nth-child(2n) {
+      margin-right: 0;
+    }
+
+    &:nth-last-child(-n+3) &-item__text,
+    &:nth-last-child(-n+3) &__text {
+      color: $thunder;
+    }
+
+    &:nth-last-child(-n+1) &-item__text,
+    &:nth-last-child(-n+1) &__text {
+      color: $white;
+    }
+  }
+
 }
 

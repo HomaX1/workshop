@@ -38,6 +38,28 @@
   }
 }
 
+.carousel-wrap {
+  width: 1280px;
+
+  &::before, &::after {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 23px;
+    background: url("../img/sprite.png") 0 -114px no-repeat;
+    position: absolute;
+    bottom: 160px;
+    left: -30px;
+    cursor: pointer;
+  }
+
+  &::after {
+    transform: rotate(180deg);
+    right: -30px;
+    left: auto;
+  }
+}
+
 .carousel {
   display: flex;
   width: 1280px;
@@ -76,34 +98,13 @@
       }
     }
   }
-
-  &::before, &::after {
-    content: "";
-    display: inline-block;
-    width: 16px;
-    height: 23px;
-    background: url("../img/sprite.png") 0 -114px no-repeat;
-    position: absolute;
-    top: 115px;
-    left: -30px;
-    cursor: pointer;
-  }
-
-  &::after {
-    transform: rotate(180deg);
-    right: -30px;
-    left: auto;
-  }
 }
 
 .offices-diagonal-background {
   width: 100%;
   position: absolute;
-  //bottom: -230px;
   bottom: -130px;
   padding-bottom: 0;
-  //padding-bottom: 0;
-  //margin-bottom: 100px;
 }
 
 .diagonal-background {
@@ -115,3 +116,40 @@
     }
   }
 }
+
+@media (max-width: 1340px) {
+
+  .carousel-wrap {
+    width: 955px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  .carousel-wrap {
+
+    &::before {
+      left: 118px;
+    }
+
+    &::after {
+      right: 118px;
+    }
+  }
+
+}
+
+@media (max-width: $desktopL - 1) and (min-width: $desktopMin) {
+
+  .carousel-wrap {
+
+    &::before {
+      left: 10px;
+    }
+
+    &::after {
+      right: 10px;
+    }
+  }
+
+}
+
